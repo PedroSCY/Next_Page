@@ -1,40 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ⚡ Next.js - Pages: Aprendizado e Prática com Pages Router
 
-## Getting Started
+Bem-vindo ao meu repositório sobre **Next.js**, com foco no modelo de rotas baseado em **Pages Router**! 🚀  
+Aqui compartilho meu aprendizado, explorando conceitos fundamentais, boas práticas e implementações utilizando o sistema tradicional de páginas do Next.js.
 
-First, run the development server:
+## 🧐 Sobre o Repositório
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este repositório serve como um registro da minha jornada estudando e aplicando **Next.js com Pages Router**, documentando conhecimentos adquiridos e desafios enfrentados. Além disso, é um espaço para que recrutadores e colaboradores possam ver meu envolvimento com essa tecnologia.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌎 Demonstração
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Você pode visualizar o projeto em funcionamento acessando:  
+🔗 **[Em breve]**
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 📂 O que você encontrará aqui?
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+✔️ Estruturação de projetos utilizando **Pages Router**  
+✔️ Navegação entre páginas e roteamento dinâmico  
+✔️ Implementação de conceitos essenciais do Next.js 
+✔️ Boas práticas para **SEO e otimização de performance**  
+✔️ Exemplo prático de uma aplicação utilizando o modelo baseado em páginas  
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Por que Next.js com Pages Router?
 
-## Learn More
+O **Pages Router** é a abordagem tradicional de roteamento no Next.js, proporcionando uma estrutura de navegação simples e eficiente. Ele facilita o desenvolvimento de aplicações performáticas, oferecendo renderização estática e dinâmica integrada.
 
-To learn more about Next.js, take a look at the following resources:
+## 🔥 Vamos conectar?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Se quiser trocar ideias sobre **Next.js, Pages Router** ou desenvolvimento frontend em geral, fique à vontade para entrar em contato!  
+Sugestões, contribuições e feedbacks são sempre bem-vindos. 😃
