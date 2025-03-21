@@ -1,0 +1,70 @@
+
+1. Static Site Generation (SSG)
+
+Como funciona?
+No SSG, a página é gerada estaticamente no momento da build. Isso significa que o código roda uma vez e gera arquivos HTML prontos para serem servidos.
+
+Quando faz sentido usar?
+Imagine que estou construindo um blog pessoal. Meus posts raramente mudam depois de publicados. Como o conteúdo não precisa ser atualizado frequentemente, faz sentido gerar todas as páginas de uma vez na build. Dessa forma, a página carrega super-rápido para qualquer visitante.
+
+Outro exemplo: um site institucional de uma empresa, onde o conteúdo principal (como "Sobre", "Serviços", "Contato") não muda com frequência. Usar SSG aqui garante performance máxima.
+
+Pontos positivos:
+- Tempo de carregamento ultra rápido (páginas já estão prontas).
+- Ideal para SEO.
+- Reduz carga no servidor.
+
+Desafios:
+- Se precisar atualizar os dados, é necessário um rebuild do site.
+
+---
+
+2. Incremental Static Regeneration (ISR)
+
+Como funciona?
+O ISR é uma evolução do SSG. Ele permite regenerar páginas estáticas de forma incremental, sem precisar rebuildar tudo.
+
+Quando faz sentido usar?
+Digamos que eu tenho um site de notícias. Algumas notícias podem mudar ao longo do dia, mas não é necessário atualizá-las a cada segundo. Com ISR, posso configurar uma revalidação para atualizar as páginas a cada 5 minutos. Assim, um leitor sempre pega uma versão recente, mas não preciso processar cada requisição no servidor.
+
+Outro exemplo: um e-commerce onde os produtos raramente mudam, mas os preços podem ser ajustados ao longo do dia. Definir um tempo de revalidação de 10 minutos garante que os preços fiquem atualizados sem sobrecarregar o servidor.
+
+Pontos positivos:
+- Mantém o site rápido sem rebuilds constantes.
+- Permite conteúdo atualizado sem sacrificar performance.
+- Equilíbrio entre SSG e SSR.
+
+Desafios:
+- Pequeno delay até a página ser revalidada.
+- Dependência de configuração correta do tempo de revalidação.
+
+---
+
+3. Server-Side Rendering (SSR)
+
+Como funciona?
+No SSR, a página é gerada no servidor a cada requisição. Isso garante que o usuário sempre receba informações atualizadas.
+
+Quando faz sentido usar?
+Se eu tenho um painel de controle onde os dados mudam constantemente (exemplo: dashboard financeiro), usar SSR é essencial para garantir que o usuário veja informações atualizadas sempre que carregar a página.
+
+Outro caso clássico: um site de rastreamento de pedidos. Cada usuário precisa ver sua entrega em tempo real, então o SSR é ideal para garantir que cada requisição traga os dados mais recentes do servidor.
+
+Pontos positivos:
+- Sempre entrega dados atualizados.
+- Boa opção para conteúdo dinâmico e personalizado.
+
+Desafios:
+- Pode ser mais lento que SSG e ISR, pois a página é gerada sob demanda.
+- Requer maior capacidade do servidor.
+
+---
+
+Conclusão
+Cada modo tem seu lugar e depende do tipo de aplicação:
+- **SSG**: Melhor para conteúdo estático que não muda com frequência.
+- **ISR**: Ideal para conteúdo que precisa ser atualizado periodicamente sem rebuilds constantes.
+- **SSR**: Necessário para dados dinâmicos e personalizados em tempo real.
+
+Escolher o modo certo garante uma melhor experiência para o usuário e otimiza o desempenho do site!
+

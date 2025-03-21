@@ -29,7 +29,9 @@ export default function Menu() {
       {renderizaritem("/render/ssg/simples", "SSG Simples", "pt")}
       {renderizaritem("/render/ssg/filme", "Filme SSG", "pt")}
       {renderizaritem("/render/ssg/personagem", "Personagem SW", "pt")}
-      {renderizaritem("/render/ssg/produtos", "Produtos", "pt")}
+      {renderizaritem("/render/ssg/produtos", "Produtos SSG", "pt")}
+      {renderizaritem("/render/isr", "Produtos ISR", "pt")}
+      {renderizaritem("/render/ssr", "Produtos SSR", "pt")}
     </ul>
   );
 }
